@@ -1,0 +1,48 @@
+.container {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.box {
+    width: 300px;
+    height: 150px;
+    background-color: orange;
+    border: 1px solid #000;
+    margin: 20px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 0px;
+    transition: all 0.5s ease;
+    font-size: 14px;
+    color: #fff;
+}
+
+.box-1:hover {
+    border-radius: 30px;
+}
+
+.box-2:hover {
+    border-radius: 30px 100px;
+}
+
+.box-3:hover {
+    border-radius: 100px 30px;
+}
+
+.box-4:hover {
+    border-radius: 30px 100px 150px 300px;
+}
+
+.box-5:hover {
+    border-radius: 50%;
+}
+
+.box-6:hover {
+    border-radius: 40% 20% / 10% 30%;
+}
